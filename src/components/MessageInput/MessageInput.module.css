@@ -1,0 +1,18 @@
+.messageInputContainer {
+  display: flex;
+  gap: 4px;
+}
+
+.messageInput {
+  padding: 12px 8px;
+  flex: 1;
+  background: var(--color-gray);
+  border-radius: var(--border-radius);
+}
+
+.sendMessage {
+  padding: 12px 14px;
+  background: var(--color-blue);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
